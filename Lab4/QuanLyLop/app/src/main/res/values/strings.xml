@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">QuanLyLop</string>
+    <string-array name="arr_ds_lop">
+        <item>Nguyen Van Tu - DH11</item>
+        <item>Nguyen Van Ti - DH12</item>
+        <item>Nguyen Van Tai - DH13</item>
+        <item>Nguyen Van Tuyen - DH14</item>
+        <item>Nguyen Van Truong - DH15</item>
+        <item>Nguyen Van Tinh - DH16</item>
+        <item>Nguyen Van Tung - DH17</item>
+        <item>Nguyen Van Tem - DH18</item>
+    </string-array>
+</resources>

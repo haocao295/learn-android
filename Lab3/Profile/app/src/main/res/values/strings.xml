@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">DemoProfile</string>
+    <string name="thong_tin_ca_nhan">Thoông tin cá nhân</string>
+    <string name="ho_ten">Họ tên: </string>
+    <string name="cmnd">CMND: </string>
+    <string name="gioi_tinh">Giới tính</string>
+    <string name="nam">Nam</string>
+    <string name="nu">Nữ</string>
+    <string name="khong_xd">KHông xác định</string>
+    <string name="so_thich">Sở thích</string>
+    <string name="an_ngon">Ăn ngon</string>
+    <string name="mac_dep">Mặc đẹp</string>
+    <string name="choi_game">Chơi game</string>
+    <string name="thong_tin_khac">Thông tin khác</string>
+    <string name="luu_thong_tin">Lưu thông tin</string>
+</resources>
