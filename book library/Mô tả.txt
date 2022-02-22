@@ -1,0 +1,7 @@
+Tên App: Book Library 
+Nội dung: xây dựng một miniApp để quản lý danh mục sách có trong thư viện và kết nối với admin 
+Ngôn ngữ lập trình: Java 
+Tính năng nổi bât: - Tích hợp cuộc gọi trực tiếp 
+	  	   - Sử dụng google Map API 
+		   - Tùy chỉnh ngôn ngữ theo ngôn ngữ điện thoại 
+		   - Kết nối CSDL SQLite 
