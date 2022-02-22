@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_book"
+        android:icon="@drawable/ic_book"
+        android:title="@string/action_book" />
+
+    <item
+        android:id="@+id/action_type"
+        android:icon="@drawable/ic_type"
+        android:title="@string/action_type" />
+
+    <item
+        android:id="@+id/action_acc"
+        android:icon="@drawable/ic_acc"
+        android:title="@string/action_acc" />
+
+
+</menu>
