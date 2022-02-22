@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Thư viện sách</string>
+    <string name="login_title">Thư viện sách</string>
+    <string name="login_username">Tên đăng nhập</string>
+    <string name="login_password">Mật khẩu</string>
+    <string name="login_login">Đăng nhập</string>
+    <string name="login_forgotpw">Quên mật khẩu?</string>
+    <string name="login_other">hoặc đăng nhập bằng</string>
+    <string name="login_ok">Đăng nhập thành công</string>
+    <string name="login_fail">Đăng nhập thất bại</string>
+    <string name="home_select">Chọn danh sách</string>
+    <string name="home_book">Sách</string>
+    <string name="home_type">Thể loại</string>
+    <string name="home_logout">Đăng xuất</string>
+    <string name="des_name">Tên sách: </string>
+    <string name="des_type">Thể loại:  </string>
+    <string name="des_id">Mã: </string>
+    <string name="des_author">Tác giả: </string>
+    <string name="des_amount">Số lượng: </string>
+    <string name="item_type">thể loại</string>
+    <string name="about_name">Họ Tên:  </string>
+    <string name="about_id">Mã SV: </string>
+    <string name="about_phone">SĐT: </string>
+    <string name="about_class">Lớp: </string>
+    <string name="menu_about">Thông tin </string>
+    <string name="menu_exit">Thoát </string>
+    <string name="menu_book">DS Sách </string>
+    <string name="menu_type">DS Loại </string>
+    <string name="add_type">Thêm Loại Mới</string>
+    <string name="add_book">Thêm Sách Mới</string>
+    <string name="button_Add">Thêm</string>
+    <string name="button_Select">Chọn hình</string>
+    <string name="button_Take">Chụp hình</string>
+    <string name="button_Save">Lưu</string>
+    <string name="button_Cancel">Hủy</string>
+    <string name="about_info">Thông tin</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="university">Đại học công nghệ Sài Gòn</string>
+</resources>

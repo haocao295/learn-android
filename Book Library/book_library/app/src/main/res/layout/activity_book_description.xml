@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookDescription">
+
+    <ImageView
+        android:id="@+id/desImage"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/a" />
+
+    <TextView
+        android:id="@+id/scode_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/desImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:textColor="@color/black" />
+
+    <RelativeLayout
+        android:id="@+id/relative_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/scode_profile"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingVertical="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/des_name"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/desName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đắc Nhân Tâm"
+                android:textColor="@color/black"
+                android:textSize="26sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/des_type"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/desType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Self-help"
+                android:textColor="@color/black"
+                android:textSize="26sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/des_id"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/desId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AS001"
+                android:textColor="@color/black"
+                android:textSize="26sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/des_author"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/desAuthor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dale"
+                android:textColor="@color/black"
+                android:textSize="26sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/des_amount"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/desAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="14"
+                android:textColor="@color/black"
+                android:textSize="26sp" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

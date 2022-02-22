@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/mnuBook"
+        android:title="@string/menu_book" />
+    <item
+        android:id="@+id/mnuType"
+        android:title="@string/menu_type" />
+    <item
+        android:id="@+id/mnuAbout"
+        android:title="@string/menu_about" />
+    <item
+        android:id="@+id/mnuExit"
+        android:title="@string/menu_exit" />
+</menu>

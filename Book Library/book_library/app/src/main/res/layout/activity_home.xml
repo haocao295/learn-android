@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#B5CAF7"
+    android:orientation="vertical"
+    android:weightSum="8"
+    tools:context=".HomeActivity">
+
+
+    <TextView
+        android:id="@+id/txtAction"
+        android:layout_width="1px"
+        android:layout_height="1px"
+        android:text="" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="8" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:text="@string/home_select"
+        android:layout_weight="1"
+        android:textSize="20pt"
+        android:textStyle="bold"
+        android:textColor="#7D29F7"
+        android:textAlignment="center"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_weight="1"
+        android:backgroundTint="@color/teal_700"
+        android:text="@string/home_book"
+        android:onClick="processBLA"
+        android:textSize="20pt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_weight="1"
+        android:backgroundTint="#0599F9"
+        android:text="@string/home_type"
+        android:onClick="processTLA"
+        android:textSize="20pt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_weight="1"
+        android:backgroundTint="#C2A070"
+        android:text="@string/home_logout"
+        android:onClick="processCancel"
+        android:textSize="20pt" />
+
+
+
+
+
+</LinearLayout>

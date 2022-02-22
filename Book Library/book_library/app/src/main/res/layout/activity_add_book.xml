@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".add.AddBookActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageAdd"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/a" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnSelect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_Select" />
+
+            <Button
+                android:id="@+id/btnTake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_Take" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/txtAddName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/des_name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtAddId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/des_id"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtAddType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/des_type"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtAddAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/des_author"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtAddAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/des_amount"
+        android:inputType="textPersonName" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/button_Save" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/button_Cancel" />
+    </LinearLayout>
+
+</LinearLayout>
